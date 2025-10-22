@@ -41,7 +41,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-full bg-gradient-to-r from-solana-purple to-solana-green animate-pulse-slow"></div>
             <span className="text-xl font-bold bg-gradient-to-r from-solana-purple to-solana-green bg-clip-text text-transparent">
-              CryptoKingmax
+              MyCoinmaker
             </span>
           </div>
 
@@ -110,7 +110,7 @@ const Header = () => {
                 </a>
                 <a href="https://t.me/cryptokingmax" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center space-x-1">
                   <MessageCircle className="w-5 h-5" />
-                  <span className="text-sm">cryptoking</span>
+                  <span className="text-sm">MyCoinmaker</span>
                 </a>
                 <a href="https://cryptokingmax.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                   <Globe className="w-5 h-5" />
