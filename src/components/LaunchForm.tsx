@@ -370,7 +370,7 @@ const LaunchForm = () => {
                     <p className="text-gray-400">One-time payment to deploy your token</p>
                   </div>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-solana-green">2 SOL</div>
+                    <div className="text-3xl font-bold text-solana-green">0.1 SOL</div>
                     <Badge className="bg-solana-purple/20 text-solana-purple border-solana-purple">
                       Includes Presale
                     </Badge>
@@ -395,7 +395,7 @@ const LaunchForm = () => {
                 ) : (
                   <>
                     <Rocket className="w-5 h-5 mr-2" />
-                    Launch Token (2 SOL)
+                    Launch Token (0.1 SOL)
                   </>
                 )}
               </Button>
