@@ -28,7 +28,32 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
             The most advanced Solana token platform. Create, deploy, and manage your tokens with enterprise-grade security and simplicity.
           </p>
-
+          {/* How to Use Box */}
+          <div className="bg-black/30 backdrop-blur-md border border-white/10 rounded-xl p-6 mb-8 text-left max-w-3xl mx-auto text-gray-300">
+          <h3 className="text-2xl font-semibold mb-4 text-white">How to use Solana Token Creator</h3>
+          <ol className="list-decimal list-inside space-y-2">
+          <li>Connect your Solana wallet.</li>
+          <li>Write the name you want for your Token.</li>
+          <li>Write the symbol (max 8 characters).</li>
+          <li>Link the image for your token (max 5MB).</li>
+          <li>Select the decimals quantity (9 is usually used for meme tokens).</li>
+          <li>Type in the total supply your token should have.</li>
+          <li>Write the description you want for your SPL Token.</li>
+          <li>On step 3 fill in the remaining details about your token.</li>
+          <li>Choose if you want to leave the revoke options turned on or off.</li>
+          <li>Click on Create, accept the transaction, and wait until your token is ready.</li>
+          </ol>
+          <p className="mt-4">
+          The cost of creating a regular Token is <strong>0.1 SOL</strong>, which includes all fees needed for the SPL Token creation.
+          </p>
+          <p>
+          Creating a trending token costs <strong>0.3 SOL</strong> and includes 1 billion supply, 9 decimals with all 3 revoke options (freeze, mint, update) turned on by default.
+          </p>
+          <p className="mt-2">
+          The creation process will start and will take a few seconds. After that, you will receive the total supply of the token in the wallet you chose.
+          </p>
+          </div>
+  
  
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
