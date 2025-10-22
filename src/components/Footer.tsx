@@ -13,15 +13,15 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-r from-solana-purple to-solana-green animate-pulse-slow"></div>
               <span className="text-xl font-bold bg-gradient-to-r from-solana-purple to-solana-green bg-clip-text text-transparent">
-                cryptokingmax
+                MyCoinmaker
               </span>
             </div>
             <p className="text-gray-400 text-sm">
-              The most advanced Solana token launchpad. Launch your project with confidence.
+              The most advanced Solana token platform. Launch your project with confidence.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/cryptoking-max" 
+                href="https://mycoinmaker.fun" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-solana-purple transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="https://t.me/cryptokingmax" 
+                href="https://t.me/mycoinmaker" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-solana-green transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a 
-                href="https://cryptokingmax.com" 
+                href="https://mycoinmaker.fun" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-solana-blue transition-colors"
@@ -51,7 +51,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white font-semibold">Product</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#launch" className="hover:text-white transition-colors">Launch Token</a></li>
+              <li><a href="#launch" className="hover:text-white transition-colors">Create Token</a></li>
               <li><a href="#live" className="hover:text-white transition-colors">Live Launches</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Token Analytics</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Liquidity Lock</a></li>
@@ -81,29 +81,29 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  cryptokingmax
+                  MyCoinmaker
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Globe className="w-4 h-4" />
                 <a 
-                  href="https://cryptokingmax.com" 
+                  href="https://mycoinmaker.fun" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  cryptokingmax.com
+                  MyCoinmaker.fun
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Github className="w-4 h-4" />
                 <a 
-                  href="https://github.com/cryptoking-max" 
+                  href="https://mycoinmaker.fun" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  cryptoking-max
+                  MyCoinmaker
                 </a>
               </div>
             </div>
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} cryptokingmax. All rights reserved.
+              © {currentYear} MyCoinmaker. All rights reserved.
             </p>
             <div className="flex space-x-6 text-gray-400 text-sm">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
