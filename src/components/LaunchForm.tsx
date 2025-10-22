@@ -89,7 +89,7 @@ const LaunchForm = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Launch Your Token
+            Launch Your Coin
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Fill out the form below to create and deploy your Solana token with presale functionality.
