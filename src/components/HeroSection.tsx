@@ -21,30 +21,15 @@ const HeroSection = () => {
               {" "}Solana Token
             </span>
             <br />
-            in Minutes
+            in Seconds
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            The most advanced Solana token launchpad. Create, deploy, and manage your tokens with enterprise-grade security and simplicity.
+            The most advanced Solana token platform. Create, deploy, and manage your tokens with enterprise-grade security and simplicity.
           </p>
 
-          {/* Feature Pills */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
-              <Shield className="w-4 h-4 text-solana-green" />
-              <span className="text-sm">Audited Smart Contracts</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
-              <Zap className="w-4 h-4 text-solana-blue" />
-              <span className="text-sm">Instant Deployment</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
-              <Star className="w-4 h-4 text-solana-purple" />
-              <span className="text-sm">Pro Features</span>
-            </div>
-          </div>
-
+ 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
