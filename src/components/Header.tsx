@@ -33,6 +33,12 @@ const Header = () => {
     }
   };
 
+  const TopBanner = () => (
+  <div className="w-full bg-yellow-400 text-black font-bold text-center py-2 text-sm md:text-base">
+    CREATE YOUR COIN FOR ONLY 0.1 SOL, FAST!
+  </div>
+);
+
   const formatAddress = (address: string) => `${address.slice(0, 4)}...${address.slice(-4)}`;
 
   return (
